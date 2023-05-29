@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(112, 214, 217);
+}
+
+.container{
+    
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.calculator {
+    background-color: black;
+    
+}
+
+form div input{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -8px -8px 15px rgba(85, 65, 65, 0.1), 5px 5px 15px  rgba(240, 217, 223, 0.2);
+    background-color: rgb(26, 17, 24);
+    color: wheat;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+
+}
+
+input.display {
+    width: 90%;
+    text-align: right;
+    
+
+}
+
+input.equal{
+    width: 125px;
+}
